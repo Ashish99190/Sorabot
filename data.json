@@ -1,0 +1,239 @@
+{
+  "intents": [
+    {
+      "tag": "ayf_inquiry",
+      "patterns": [
+      "What is the Awaji Youth Federation?",
+      "Can you tell me about the AYF?",
+      "I'm interested in the Awaji Youth Federation",
+      "What does the AYF do?",
+      "Tell me more about the AYF's programs"
+      ],
+      "responses": [
+      "The Awaji Youth Federation (AYF) is a non-profit organization that aims to empower young people in Awaji Island. We offer various programs and activities to help them develop their skills and leadership potential.",
+      "Sure, the AYF is all about supporting young people here in Awaji. We organize events, workshops, and programs to help them grow and contribute to our community."
+      ]
+      },
+      {
+        "tag": "awaji_island",
+        "patterns": [
+        "Tell me about Awaji Island",
+        "What's Awaji Island known for?",
+        "I'm interested in visiting Awaji Island",
+        "What are some things to do on Awaji Island?",
+        "Is Awaji Island a good place to visit?"
+        ],
+        "responses": [
+        "Awaji Island is a beautiful island located in the Seto Inland Sea of Japan. It's known for its stunning natural scenery, delicious seafood, and rich cultural heritage.  https://en.wikipedia.org/wiki/Awaji,_Hy%C5%8Dgo",
+        "Awaji Island offers something for everyone! You can enjoy hiking and biking through its mountains, relax on its beautiful beaches, explore historical temples and shrines, or indulge in the fresh seafood and local specialties."
+        ]
+        },
+        {
+        "tag": "pasona_group",
+        "patterns": [
+        "What is the Pasona Group?",
+        "Who are the partners of the Awaji Youth Federation?",
+        "Tell me more about the Pasona Group's involvement with the AYF"
+        ],
+        "responses": [
+        "The Pasona Group is a leading Japanese company that supports various social initiatives. They are a proud partner of the Awaji Youth Federation and share our commitment to empowering young people."
+        ]
+        },
+        {
+      
+        "tag": "ayf_website",
+        "patterns": [
+        "Do you have a website?",
+        "Where can I learn more about the AYF?",
+        "Is there an AYF website?"
+        ],
+        "responses": ["https://awaji-youth-federation.com/ to learn more about the AYF, our programs, events, and how to get involved."
+        ]
+        },
+        {
+        "tag": "ayf_application",
+        "patterns": [
+        "How do I apply for an AYF program?",
+        "Where can I find the AYF application form?",
+        "I'm interested in applying for a specific AYF program"
+        ],
+        "responses": [ "https://awaji-youth-federation.com/ or contact us for specific details on how to apply for the program you're interested in."
+        ]
+        },
+        {
+        "tag": "ayf_donation",
+        "patterns": [
+        "Can I donate to the AYF?",
+        "How can I support the AYF?",
+        "I'd like to make a donation to the AYF"
+        ],
+        "responses": ["https://awaji-youth-federation.com/ for information on donating."
+        ]
+        },
+      {
+      "tag": "ayf_events",
+      "patterns": [
+      "Are there any upcoming AYF events?",
+      "What events does the AYF have coming up?",
+      "I'm interested in attending an AYF event",
+      "When is the next AYF event?",
+      "Show me upcoming AYF events"
+      ],
+      "responses": [
+      "Absolutely! You can check out our upcoming events on our website https://awaji-youth-federation.com/ or follow us on social media for the latest updates.",
+      "We have a variety of events throughout the year! Let me know what kind of interests you have, and I can find something that might be a good fit."
+      ]
+      },
+      {
+      "tag": "ayf_membership",
+      "patterns": [
+      "How can I join the AYF?",
+      "I'm interested in becoming a member of the AYF",
+      "What are the benefits of joining the AYF?",
+      "Tell me more about AYF membership",
+      "How do I become part of the AYF?"
+      ],
+      "responses": [
+      "We'd love to have you join the AYF! Membership is open to all young people in Awaji. You can find more information and the application form on our website https://awaji-youth-federation.com/."]
+      },
+      {
+      "tag": "ayf_volunteering",
+      "patterns": [
+      "Can I volunteer with the AYF?",
+      "I'm interested in volunteering opportunities with the AYF",
+      "How can I volunteer my time with the AYF?",
+      "Do you have any volunteer programs?",
+      "Tell me more about volunteering with the AYF"
+      ],
+      "responses": [
+      "Volunteering is a great way to get involved with the AYF and give back to the community. We have a variety of volunteer opportunities available. Check out our website https://awaji-youth-federation.com/ to learn more.",
+      "We appreciate your interest in volunteering! We have opportunities for people of all interests and skillsets. Let me know what you're passionate about, and I can connect you with the right program."
+      ]
+      },
+      {
+      "tag": "ayf_contact",
+      "patterns": [
+      "How can I contact the AYF?",
+      "I would like to get in touch with the AYF",
+      "What is the AYF's contact information?",
+      "Can you give me the AYF's email address?",
+      "How do I reach out to the AYF?"
+      ],
+      "responses": [
+      "You can contact the AYF through our website https://awaji-youth-federation.com/ or send us an email at [email protected] We're also available on social media.",
+      "We're always happy to hear from you! Don't hesitate to reach out if you have any questions or inquiries."
+      ]
+      
+
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "awaji_island_stay",
+      "patterns": [
+      "Where can I stay on Awaji Island?",
+      "Are there any recommendations for accommodation on Awaji Island?",
+      "What kind of places to stay are there on Awaji Island?",
+      "I'm looking for a place to stay on Awaji Island"
+      ],
+      "responses": ["https://www.jalan.net/en/japan_hotels_ryokan/Ryokan/Hyogo_Ryokan/Awaji_Island_Ryokan/Sumoto_Ryokan/hotel_new_awaji/ or https://www.booking.com/region/jp/awaji-island.html."
+      ]
+      },
+      {
+      "tag": "ayf_application_process",
+      "patterns": [
+      "What is the application process for AYF programs?",
+      "How do I apply to be a member of the AYF?",
+      "Can you walk me through the steps of applying for an AYF program?"
+      ],
+      "responses": ["https://awaji-youth-federation.com/  or by contacting us directly."
+      ]
+      },
+      
+    {
+    "tag": "ayf_general_activities",
+    "patterns": [
+    "What kind of activities does the AYF offer?",
+    "What can I expect to do as a member of the AYF?",
+    "What are some examples of AYF programs?",
+    "I'm interested in participating in AYF activities, but I'm not sure which one is right for me"
+    ],
+    "responses": [
+    "The AYF offers a variety of programs and activities throughout the year to suit different interests and age groups. These can include workshops on leadership development, cultural exchange programs, environmental sustainability initiatives, and community service projects."
+    ]
+    },
+    {
+    "tag": "ayf_eligibility",
+    "patterns": [
+    "Am I eligible to join the AYF?",
+    "Who can participate in AYF programs?",
+    "What are the age requirements for AYF membership?"
+    ],
+    "responses": [
+    "The AYF is open to all young people in Awaji Island! We encourage anyone passionate about developing their skills, making a positive impact, and contributing to our community to join us."
+    ]
+    },
+    {
+    "tag": "ayf_registration",
+    "patterns": [
+    "How do I register for an AYF program?",
+    "What is the deadline to register for AYF events?",
+    "Do I need to register to participate in AYF activities?"
+    ],
+    "responses": ["https://awaji-youth-federation.com/  or by contacting us directly."
+    ]
+    },
+    {
+    "tag": "ayf_social_media",
+    "patterns": [
+    "Does the AYF have a social media presence?",
+    "How can I follow the AYF on social media?",
+    "What are the AYF's social media handles?"
+    ],
+    "responses": [
+    "Absolutely! We are active on social media and regularly share updates about our programs, events, and activities. You can follow us on [insert social media platforms here] to stay connected."
+    ]
+    },
+    {
+    "tag": "ayf_faq",
+    "patterns": [
+    "Do you have a FAQ section on your website?",
+    "Where can I find more frequently asked questions about the AYF?",
+    "Is there a FAQ page for the AYF?"
+    ],
+    "responses": [
+    "Yes, you are currently browsing it! This FAQ section aims to answer some of the most common questions about the AYF. If you can't find what you're looking for here, don't hesitate to contact us."
+    ]
+    }
+    
+  ]
+}
